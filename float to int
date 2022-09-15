@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+	// Declaring Variables
+	float x,y;
+	int a,b;
+
+	printf("Enter value of  x:");
+	scanf("%f",&x);
+	printf("enter value of  y:");
+	scanf("%f",&y);
+
+	// Simple Conversion
+
+	a = (int)(x+0.5);
+	b = (int)(y+0.5);
+	printf("Value Of a:%d",a);
+	printf("Value Of b:%d",b);
+}
